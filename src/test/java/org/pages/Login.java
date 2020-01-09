@@ -22,7 +22,7 @@ private List<WebElement> password;
 private List<WebElement> btnClick;
 
 
-@FindBy(xpath="//a[text()='New User Register Here']")
+@FindBy(xpath="//a[text()='New User Regiser Here']")
 private WebElement cli;
 public WebElement getCli() {
 	return cli;

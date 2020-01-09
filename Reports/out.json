@@ -1,0 +1,319 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 224600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The Adactin page should be launched",
+            "match": {
+              "location": "BookingStep.the_Adactin_page_should_be_launched()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7980711300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4134886400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beofreExecution1()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "To book a hotel in adactin webpage with vaild credentials",
+        "description": "",
+        "id": "to-validate-the-booking-functionlaity;to-book-a-hotel-in-adactin-webpage-with-vaild-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 733008000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1134701800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user enters the \"kavin8080\" and \"kavin8080\" and clicks login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kavin8080\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"kavin8080\"",
+                  "offset": 36
+                }
+              ],
+              "location": "BookingStep.the_user_enters_the_and_and_clicks_login(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1477560900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects the \"Melbourne\",\"Hotel Creek\",\"Double\",\"1 - One\",\"2 - Two\"and click search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 62
+                }
+              ],
+              "location": "BookingStep.user_selects_the_and_click_search(String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 934495200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user selects the hotel and click continue",
+            "match": {
+              "location": "BookingStep.user_selects_the_hotel_and_click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6698854700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters \"Kavin\",\"karthikeyan\",\"Chennai\",\"8080248110031010\",\"VISA\",\"February\",\"2022\",\"123\" and click book",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kavin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"karthikeyan\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"8080248110031010\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"February\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 81
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 88
+                }
+              ],
+              "location": "BookingStep.user_enters_and_click_book(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63860700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user gets the booking id",
+            "match": {
+              "location": "BookingStep.user_gets_the_booking_id()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EndToEndTesting"
+          },
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Retesting"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 48500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The Adactin page should be launched",
+            "match": {
+              "location": "BookingStep.the_Adactin_page_should_be_launched()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7159472700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4139528000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beofreExecution1()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "verifying the user registration",
+        "description": "",
+        "id": "to-validate-the-booking-functionlaity;verifying-the-user-registration",
+        "after": [
+          {
+            "result": {
+              "duration": 719729800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[text()\u003d\u0027New User Regiser Here\u0027]\"}\n  (Session info: chrome\u003d79.0.3945.88)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027GOWTHAMS-PC\u0027, ip: \u0027192.168.0.194\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_162\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\\Users\\Kavin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55734}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: ac6fb7b530ca85ecb07d3021c8b9a0b1\n*** Element info: {Using\u003dxpath, value\u003d//a[text()\u003d\u0027New User Regiser Here\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat org.stepdefinition.BookingStep.user_clicking_new_registration(BookingStep.java:94)\r\n\tat ✽.User clicking new registration(src/test/resources/Features/Login.feature:22)\r\n",
+              "duration": 49099300,
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "User clicking new registration",
+            "match": {
+              "location": "BookingStep.user_clicking_new_registration()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7600,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user created account successfully",
+            "match": {
+              "location": "BookingStep.user_created_account_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EndToEndTesting"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the booking functionlaity",
+    "description": "",
+    "id": "to-validate-the-booking-functionlaity",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Login.feature",
+    "tags": [
+      {
+        "name": "@EndToEndTesting",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

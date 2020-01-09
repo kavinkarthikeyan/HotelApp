@@ -9,16 +9,26 @@ import cucumber.api.java.Before;
 
 public class HooksClass extends HelperClass {
 
-	@Before
-	public void beforeExecution() {
-		
+	@Before(order=-1)                 //before execution of each scenario
+	public void beforeExecution2() {
+		System.out.println("Browser is launching");
 		BrowserLaunch();
-		driver.manage().window().maximize();
 		Launchurl("https://adactin.com/HotelApp/");
-		driver.manage().timeouts().pageLoadTimeout(100, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(100, TimeUnit.MINUTES);
+
+		
+	}
+	
+	@Before(order=2)
+	
+	public void beofreExecution1() {
+		System.out.println("Window maximizing and wait is applied");
+		driver.manage().window().maximize();
+		//driver.manage().timeouts().implicitlyWait(100, TimeUnit.MINUTES);
+
 
 	}
+	
+
 
 	@After
 	public void afterExecution() {
